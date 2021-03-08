@@ -88,14 +88,14 @@ class Desktop extends StatelessWidget {
 }
 
 class Browser extends StatefulWidget {
-  Browser({Key key}) : super(key: key);
+  Browser({Key? key}) : super(key: key);
   @override
   BrowserState createState() => new BrowserState();
 }
 
 class BrowserState extends State<Browser> with TickerProviderStateMixin {
   List<Tab> tabs = [];
-  TabController tabController;
+  late TabController tabController;
   var count = 1;
   void newTab() {
     setState(() {

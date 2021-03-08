@@ -18,7 +18,7 @@ import 'package:flutter/material.dart';
 
 class SearchWidget extends StatelessWidget {
   final TextEditingController editingController = new TextEditingController();
-  BuildContext _context;
+  late BuildContext _context;
 
   @override
   Widget build(BuildContext context) {
