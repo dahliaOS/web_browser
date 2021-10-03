@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Web Browser
+Exec=web_browser
+Terminal=false
+Icon=web_browser
+Type=Application
+Categories=Utility;

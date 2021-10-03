@@ -1,0 +1,10 @@
+{
+      "id": "io.dahliaos.web_browser",
+      "altName": "web_browser",
+      "realName": "Web Browser",
+      "version": "dahliaOS-latest",
+      "description": "Browse the web",
+      "sourceCode": "https://github.com/dahliaOS/web_browser",
+      "hash": "DAP_AUTOMATION_PKGHASH",
+      "architecture": "x86_64"
+},
